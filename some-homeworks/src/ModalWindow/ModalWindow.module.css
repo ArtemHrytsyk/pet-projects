@@ -1,0 +1,27 @@
+.modalButton {
+    border: 0;
+    background:  rgb(0, 126, 199);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 22px;
+    /* розмістити посередині: */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .modalContent {
+    background-color: #fefefe;
+    margin: 5% auto; /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(61, 61, 61, 0.4); /* Black w/ opacity */
+  }
+
+  .modalText {
+    color: white;
+    text-align: center;
+  }
